@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
       --size-text: 16px;
       --size-text-lg: 20px;
+      --font-family: 'Roboto', sans-serif;
   }
 
   html, body, #root {
@@ -17,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+      font-family: var(--font-family);
       background-color: var(--color-background);
   }
 `;
