@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
+import { SiIfood } from 'react-icons/si';
 import LinkItem from './Components/LinkItem';
 
 const LinksList = styled.div`
@@ -18,9 +19,14 @@ export default function LinkList() {
         itemLink="https://api.whatsapp.com/send?phone=5511989353000"
       />
       <LinkItem
-        itemText="@pao_e_massa_do_richard"
+        itemText="@paoemassadorichard"
         itemLogo={<AiOutlineInstagram size="45px" />}
-        itemLink="https://www.instagram.com/pao_e_massa_do_richard/"
+        itemLink="https://www.instagram.com/paoemassadorichard/"
+      />
+      <LinkItem
+        itemText="Peça Pelo iFood"
+        itemLogo={<SiIfood size="45px" />}
+        itemLink="https://www.ifood.com.br/delivery/sao-paulo-sp/massa-do-richard-vila-pauliceia/"
       />
     </LinksList>
   );
