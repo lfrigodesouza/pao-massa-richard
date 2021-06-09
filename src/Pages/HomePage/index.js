@@ -15,7 +15,6 @@ const Wrapper = styled.div`
 const MainPage = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: red;
 
   display: flex;
   flex-wrap: wrap;
