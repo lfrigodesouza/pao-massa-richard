@@ -8,6 +8,7 @@ const LogoFrame = styled.img`
   height: ${(props) => props.height};
   border-radius: 180px;
   border: solid 2px var(--color-primary);
+  background-color: #ffffff;
 `;
 
 export default function Logo({ width, height }) {
