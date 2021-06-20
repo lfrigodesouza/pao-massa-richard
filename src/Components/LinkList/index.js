@@ -31,7 +31,7 @@ export default function LinkList() {
       <LinkItem
         itemText="Peça Pelo Uber Eats"
         itemLogo={<SiUbereats size="45px" />}
-        itemLink="https://www.ubereats.com/br/store/massa-do-richard/pw6MHB3oTbS0UqK8o8PUUw"
+        itemLink="https://order.ubereats.com/sao-paulo/food-delivery/Massa%20do%20Richard/pw6MHB3oTbS0UqK8o8PUUw/?utm_source=web-restaurant-manager"
       />
     </LinksList>
   );
