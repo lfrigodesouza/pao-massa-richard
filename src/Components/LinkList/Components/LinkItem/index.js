@@ -10,7 +10,7 @@ export const ItemBox = styled.a`
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 5px 0px;
   margin: 10px;
@@ -28,8 +28,6 @@ export const ItemBox = styled.a`
 `;
 
 export const ItemLink = styled.span`
-  text-decoration: none;
-  font-weight: bold;
   font-size: var(--size-text-lg);
 `;
 

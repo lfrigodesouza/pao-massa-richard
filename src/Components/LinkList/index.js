@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
-import { SiIfood } from 'react-icons/si';
+import { SiIfood, SiUbereats } from 'react-icons/si';
 import LinkItem from './Components/LinkItem';
 
 const LinksList = styled.div`
@@ -27,6 +27,11 @@ export default function LinkList() {
         itemText="Peça Pelo iFood"
         itemLogo={<SiIfood size="45px" />}
         itemLink="https://www.ifood.com.br/delivery/sao-paulo-sp/massa-do-richard-vila-pauliceia/"
+      />
+      <LinkItem
+        itemText="Peça Pelo Uber Eats"
+        itemLogo={<SiUbereats size="45px" />}
+        itemLink="https://www.ubereats.com/br/store/massa-do-richard/pw6MHB3oTbS0UqK8o8PUUw"
       />
     </LinksList>
   );
