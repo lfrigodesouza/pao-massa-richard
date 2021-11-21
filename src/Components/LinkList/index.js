@@ -19,19 +19,19 @@ export default function LinkList() {
         itemLink="https://api.whatsapp.com/send?phone=5511989353000"
       />
       <LinkItem
-        itemText="@paoemassadorichard"
+        itemText="@massadorichard"
         itemLogo={<AiOutlineInstagram size="45px" />}
-        itemLink="https://www.instagram.com/paoemassadorichard/"
+        itemLink="https://www.instagram.com/massadorichard/"
       />
       <LinkItem
         itemText="Peça Pelo iFood"
         itemLogo={<SiIfood size="45px" />}
-        itemLink="https://www.ifood.com.br/delivery/sao-paulo-sp/massa-do-richard-vila-pauliceia/"
+        itemLink="https://www.ifood.com.br/delivery/sao-paulo-sp/massa-do-richard-santana/5319cb8a-2f77-421c-95de-fdeb8bdddeed"
       />
       <LinkItem
         itemText="Peça Pelo Uber Eats"
         itemLogo={<SiUbereats size="45px" />}
-        itemLink="https://order.ubereats.com/sao-paulo/food-delivery/Massa%20do%20Richard/pw6MHB3oTbS0UqK8o8PUUw/?utm_source=web-restaurant-manager"
+        itemLink="https://www.order.store/br/store/Massa%20do%20Richard/pw6MHB3oTbS0UqK8o8PUUw"
       />
     </LinksList>
   );

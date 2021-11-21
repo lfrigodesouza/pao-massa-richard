@@ -17,5 +17,5 @@ const FooterBar = styled.footer`
 `;
 
 export default function Footer() {
-  return <FooterBar>Pão e Massa do Richard | © 2020 - 2021</FooterBar>;
+  return <FooterBar>Massa do Richard | © 2020 - 2021</FooterBar>;
 }
