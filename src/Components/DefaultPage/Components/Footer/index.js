@@ -16,6 +16,16 @@ const FooterBar = styled.footer`
   margin: -30px;
 `;
 
+export function GetCurrentYear() {
+  return new Date().getFullYear();
+}
+
 export default function Footer() {
-  return <FooterBar>Massa do Richard | © 2020 - 2021</FooterBar>;
+  return (
+    <FooterBar>
+      {' '}
+      { `Massa do Richard | © 2020 - ${GetCurrentYear()}` }
+      {' '}
+    </FooterBar>
+  );
 }
