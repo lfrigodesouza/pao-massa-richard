@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import DefaultPage from '../../Components/DefaultPage';
-import DeliveryRegion from '../../Components/DeliveryRegion';
 import LinkList from '../../Components/LinkList';
 import Logo from '../../Components/Logo';
+import ProductsList from '../../Components/ProductsList';
 
 const Wrapper = styled.div`
   display: flex;
@@ -18,7 +18,7 @@ export default function HomePage() {
       <Wrapper>
         <Logo width="200px" height="200px" />
         <LinkList />
-        <DeliveryRegion />
+        <ProductsList />
       </Wrapper>
     </DefaultPage>
   );
